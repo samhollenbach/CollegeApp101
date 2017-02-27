@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fb8-Uh-vvD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fb8-Uh-vvD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,12 +20,68 @@
                     <view key="view" contentMode="scaleToFill" id="Zxu-ei-0P0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.0" blue="0.61245784921439839" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_bg" translatesAutoresizingMaskIntoConstraints="NO" id="5IE-M9-MBK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQ1-lx-NPX">
+                                <rect key="frame" x="112" y="414" width="150" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Login" backgroundImage="log_bg">
+                                    <color key="titleColor" red="1" green="0.988595051916346" blue="0.95438020766538401" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVa-DF-dNa">
+                                <rect key="frame" x="158" y="462" width="59" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sign Up!">
+                                    <color key="titleColor" red="1" green="0.988595051916346" blue="0.95438020766538401" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xj1-I8-RFJ">
+                                <rect key="frame" x="236" y="348" width="123" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Forgot Password?">
+                                    <color key="titleColor" red="0.1270656086387435" green="0.12561643196900074" blue="0.12126890195977243" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="           Password" placeholder="Password" textAlignment="natural" minimumFontSize="17" background="username_bg" translatesAutoresizingMaskIntoConstraints="NO" id="LoN-tH-g5s">
+                                <rect key="frame" x="37" y="318" width="300" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.66868455497382207" green="0.66124183266111913" blue="0.63428522820261668" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="           Username" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" background="username_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Cis-DS-UzA">
+                                <rect key="frame" x="37" y="282" width="300" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.66868455497382207" green="0.66124183266111913" blue="0.63428522820261668" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo_no_bg" translatesAutoresizingMaskIntoConstraints="NO" id="b8K-v8-2JK">
+                                <rect key="frame" x="80" y="30" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.3347363357718186" green="0.88371571979912278" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="OJS-v1-9fd" firstAttribute="top" secondItem="5IE-M9-MBK" secondAttribute="bottom" id="Mjk-jo-loW"/>
+                            <constraint firstAttribute="trailing" secondItem="5IE-M9-MBK" secondAttribute="trailing" id="WRY-th-nZY"/>
+                            <constraint firstItem="5IE-M9-MBK" firstAttribute="top" secondItem="Zxu-ei-0P0" secondAttribute="top" id="X4d-rN-6r8"/>
+                            <constraint firstItem="5IE-M9-MBK" firstAttribute="leading" secondItem="Zxu-ei-0P0" secondAttribute="leading" id="fZ9-Eq-sHg"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dUS-wD-exH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="38" y="184"/>
+            <point key="canvasLocation" x="37.600000000000001" y="183.95802098950526"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="log_bg" width="182" height="40"/>
+        <image name="login_bg" width="414" height="736"/>
+        <image name="logo_no_bg" width="204" height="217"/>
+        <image name="username_bg" width="330" height="40"/>
+    </resources>
 </document>
