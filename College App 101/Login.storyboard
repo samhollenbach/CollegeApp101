@@ -10,9 +10,36 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="iII-sI-z59">
+            <objects>
+                <viewController id="IFp-3b-twF" customClass="ViewController" customModule="College_App_101" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tlp-v2-pKi"/>
+                        <viewControllerLayoutGuide type="bottom" id="g0r-D4-pAS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="12Z-Z8-XjM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBj-rN-JsW">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="mainScroll" destination="cBj-rN-JsW" id="Nez-we-KbA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H01-tm-DE5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="-527.58620689655174"/>
+        </scene>
+        <!--Login Controller-->
         <scene sceneID="wzp-12-cna">
             <objects>
-                <viewController id="fb8-Uh-vvD" sceneMemberID="viewController">
+                <viewController id="fb8-Uh-vvD" customClass="LoginController" customModule="College_App_101" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4jU-y2-pjF"/>
                         <viewControllerLayoutGuide type="bottom" id="OJS-v1-9fd"/>
@@ -30,6 +57,9 @@
                                 <state key="normal" title="Login" backgroundImage="log_bg">
                                     <color key="titleColor" red="1" green="0.988595051916346" blue="0.95438020766538401" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="IFp-3b-twF" kind="show" id="aXX-iO-ef2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVa-DF-dNa">
                                 <rect key="frame" x="158" y="462" width="59" height="30"/>
