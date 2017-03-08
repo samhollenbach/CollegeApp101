@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         vc2.view.frame = frame2
         self.addChildViewController(vc2)
         self.mainScroll.addSubview(vc2.view)
-        vc1.didMove(toParentViewController: self)
+        vc2.didMove(toParentViewController: self)
         
         self.mainScroll.contentSize = CGSize(width: self.view.frame.size.width * 3, height: self.view.frame.size.height)
         self.mainScroll.contentOffset.x = self.view.frame.size.width
