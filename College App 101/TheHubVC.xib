@@ -20,7 +20,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="navbar_bg" translatesAutoresizingMaskIntoConstraints="NO" id="vUz-OL-xss">
-                    <rect key="frame" x="-29" y="-8" width="432" height="73"/>
+                    <rect key="frame" x="-9" y="-10" width="393" height="71"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="College_BG" translatesAutoresizingMaskIntoConstraints="NO" id="WPo-Y5-OuH">
@@ -32,10 +32,6 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" backgroundImage="Menu_Icon"/>
                 </button>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hub_title" translatesAutoresizingMaskIntoConstraints="NO" id="Km6-Ep-jNa">
-                    <rect key="frame" x="148" y="-4" width="78" height="65"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hub_tabs_bg" translatesAutoresizingMaskIntoConstraints="NO" id="T0y-7N-gTE">
                     <rect key="frame" x="0.0" y="261" width="375" height="446"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -58,6 +54,10 @@
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hub_plus" translatesAutoresizingMaskIntoConstraints="NO" id="poN-fM-oOA">
                     <rect key="frame" x="300" y="337" width="46" height="46"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hub_title" translatesAutoresizingMaskIntoConstraints="NO" id="Km6-Ep-jNa">
+                    <rect key="frame" x="148" y="0.0" width="78" height="65"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>

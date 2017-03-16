@@ -56,7 +56,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_nav_bar" translatesAutoresizingMaskIntoConstraints="NO" id="GIZ-Ng-Emf">
-                    <rect key="frame" x="-10" y="-10" width="394" height="71"/>
+                    <rect key="frame" x="-8" y="-10" width="393" height="71"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Classes" translatesAutoresizingMaskIntoConstraints="NO" id="Hzo-HY-b4j">
@@ -108,7 +108,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Title" translatesAutoresizingMaskIntoConstraints="NO" id="fO7-hM-fJV" userLabel="Title">
-                    <rect key="frame" x="47" y="-3" width="280" height="56"/>
+                    <rect key="frame" x="58" y="5" width="280" height="56"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>

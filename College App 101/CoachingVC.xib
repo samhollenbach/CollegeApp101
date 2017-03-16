@@ -24,15 +24,11 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_bar_learn" translatesAutoresizingMaskIntoConstraints="NO" id="dIR-w0-sCw">
-                    <rect key="frame" x="-11" y="-7" width="397" height="66"/>
+                    <rect key="frame" x="-9" y="-6" width="394" height="72"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Menu_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="rNn-do-zzj">
                     <rect key="frame" x="10" y="10" width="30" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Learn_Title" translatesAutoresizingMaskIntoConstraints="NO" id="rzs-Uj-Jrg">
-                    <rect key="frame" x="113" y="2" width="148" height="49"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Essay_review_txt" translatesAutoresizingMaskIntoConstraints="NO" id="oRT-eW-V2U">
@@ -119,6 +115,10 @@
                     <rect key="frame" x="0.0" y="500" width="375" height="10"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line_17" translatesAutoresizingMaskIntoConstraints="NO" id="H18-l5-wxL">
+                    <rect key="frame" x="0.0" y="438" width="375" height="10"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line_19" translatesAutoresizingMaskIntoConstraints="NO" id="imr-g2-e24">
                     <rect key="frame" x="0.0" y="562" width="375" height="10"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -127,13 +127,13 @@
                     <rect key="frame" x="0.0" y="620" width="375" height="10"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line_17" translatesAutoresizingMaskIntoConstraints="NO" id="H18-l5-wxL">
-                    <rect key="frame" x="0.0" y="438" width="375" height="10"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Learn_Title" translatesAutoresizingMaskIntoConstraints="NO" id="rzs-Uj-Jrg">
+                    <rect key="frame" x="113" y="6" width="148" height="49"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="0.4856438784290808" green="0.90545238874345546" blue="0.096779816052711187" alpha="1" colorSpace="calibratedRGB"/>
-            <point key="canvasLocation" x="24.5" y="51.5"/>
+            <point key="canvasLocation" x="9.5" y="44.5"/>
         </view>
     </objects>
     <resources>
