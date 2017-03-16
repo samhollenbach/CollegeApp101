@@ -19,45 +19,45 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="navbar_bg" translatesAutoresizingMaskIntoConstraints="NO" id="vUz-OL-xss">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="navbar_bg" translatesAutoresizingMaskIntoConstraints="NO" id="vUz-OL-xss">
+                    <rect key="frame" x="-29" y="-8" width="432" height="73"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="College_BG" translatesAutoresizingMaskIntoConstraints="NO" id="WPo-Y5-OuH">
-                    <rect key="frame" x="0.0" y="60" width="375" height="240"/>
+                    <rect key="frame" x="0.0" y="48" width="375" height="240"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OfV-Cu-06o">
-                    <rect key="frame" x="10" y="20" width="25" height="25"/>
+                    <rect key="frame" x="10" y="10" width="30" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" backgroundImage="Menu_Icon"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3s-ba-3EZ">
-                    <rect key="frame" x="0.0" y="270" width="125" height="30"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hub_title" translatesAutoresizingMaskIntoConstraints="NO" id="Km6-Ep-jNa">
+                    <rect key="frame" x="148" y="-4" width="78" height="65"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.18431372549019609" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="timeline">
-                        <color key="titleColor" red="0.85490196078431369" green="0.8666666666666667" blue="0.81568627450980391" alpha="1" colorSpace="calibratedRGB"/>
-                    </state>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8GX-4z-NUZ">
-                    <rect key="frame" x="250" y="270" width="125" height="30"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hub_tabs_bg" translatesAutoresizingMaskIntoConstraints="NO" id="T0y-7N-gTE">
+                    <rect key="frame" x="0.0" y="261" width="375" height="446"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.18431372549019609" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="tasks">
-                        <color key="titleColor" red="0.85490196078431369" green="0.8666666666666667" blue="0.81568627450980391" alpha="1" colorSpace="calibratedRGB"/>
-                    </state>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i97-7g-Iwl">
-                    <rect key="frame" x="125" y="270" width="125" height="30"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ColePic" translatesAutoresizingMaskIntoConstraints="NO" id="qKa-5m-Sum">
+                    <rect key="frame" x="16" y="73" width="131" height="131"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.18431372549019609" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="notifications">
-                        <color key="titleColor" red="0.85490196078431369" green="0.8666666666666667" blue="0.81568627450980391" alpha="1" colorSpace="calibratedRGB"/>
-                    </state>
-                </button>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hub_Tab_Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="U1W-V3-ICJ">
-                    <rect key="frame" x="177" y="295" width="20" height="10"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cole_name" translatesAutoresizingMaskIntoConstraints="NO" id="fe0-1x-EFJ">
+                    <rect key="frame" x="155" y="99" width="162" height="49"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="78_complete" translatesAutoresizingMaskIntoConstraints="NO" id="3mM-e8-daZ">
+                    <rect key="frame" x="154" y="144" width="165" height="49"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hub_card" translatesAutoresizingMaskIntoConstraints="NO" id="P69-pk-KjI">
+                    <rect key="frame" x="16" y="309" width="350" height="463"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hub_plus" translatesAutoresizingMaskIntoConstraints="NO" id="poN-fM-oOA">
+                    <rect key="frame" x="300" y="337" width="46" height="46"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>
@@ -66,9 +66,15 @@
         </view>
     </objects>
     <resources>
-        <image name="College_BG" width="414" height="231"/>
-        <image name="Hub_Tab_Arrow" width="35" height="12"/>
+        <image name="78_complete" width="165" height="49"/>
+        <image name="ColePic" width="131" height="131"/>
+        <image name="Cole_name" width="162" height="49"/>
+        <image name="College_BG" width="414" height="247"/>
+        <image name="Hub_tabs_bg" width="414" height="457"/>
+        <image name="Hub_title" width="78" height="56"/>
         <image name="Menu_Icon" width="28" height="27"/>
-        <image name="navbar_bg" width="414" height="58"/>
+        <image name="hub_card" width="376" height="463"/>
+        <image name="hub_plus" width="45" height="45"/>
+        <image name="navbar_bg" width="432" height="73"/>
     </resources>
 </document>

@@ -115,15 +115,15 @@
                     <rect key="frame" x="0.0" y="445" width="414" height="1"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line_17" translatesAutoresizingMaskIntoConstraints="NO" id="Brz-Tg-3Fv">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line_18" translatesAutoresizingMaskIntoConstraints="NO" id="Brz-Tg-3Fv">
                     <rect key="frame" x="0.0" y="500" width="375" height="10"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line_17" translatesAutoresizingMaskIntoConstraints="NO" id="imr-g2-e24">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line_19" translatesAutoresizingMaskIntoConstraints="NO" id="imr-g2-e24">
                     <rect key="frame" x="0.0" y="562" width="375" height="10"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line_17" translatesAutoresizingMaskIntoConstraints="NO" id="TER-V3-SQg">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line_14" translatesAutoresizingMaskIntoConstraints="NO" id="TER-V3-SQg">
                     <rect key="frame" x="0.0" y="620" width="375" height="10"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
@@ -156,7 +156,9 @@
         <image name="essay_description_txt" width="200" height="65"/>
         <image name="frame_line_2" width="414" height="7"/>
         <image name="free_lesson_bg" width="414" height="456"/>
+        <image name="line_14" width="1" height="1"/>
         <image name="line_17" width="1" height="1"/>
+        <image name="line_18" width="1" height="1"/>
         <image name="line_19" width="1" height="1"/>
         <image name="nav_bar_learn" width="432" height="73"/>
         <image name="selected_session_boarder" width="115" height="68"/>
