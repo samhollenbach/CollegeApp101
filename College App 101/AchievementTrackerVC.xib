@@ -20,100 +20,108 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_BG" translatesAutoresizingMaskIntoConstraints="NO" id="19x-4g-q4V">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Volunteering" translatesAutoresizingMaskIntoConstraints="NO" id="gBg-cF-YUF">
-                    <rect key="frame" x="16" y="267" width="109" height="109"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_WorkExperience" translatesAutoresizingMaskIntoConstraints="NO" id="CCF-Ii-SZo">
-                    <rect key="frame" x="133" y="267" width="109" height="109"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_SchoolInvolvement" translatesAutoresizingMaskIntoConstraints="NO" id="bUG-BW-ygs">
-                    <rect key="frame" x="250" y="267" width="109" height="109"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_StandardizedTesting" translatesAutoresizingMaskIntoConstraints="NO" id="qcI-yd-gjM">
-                    <rect key="frame" x="16" y="445" width="109" height="109"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Awards" translatesAutoresizingMaskIntoConstraints="NO" id="tW5-Pu-S4p">
-                    <rect key="frame" x="133" y="445" width="109" height="109"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Other" translatesAutoresizingMaskIntoConstraints="NO" id="DpR-d9-LJL">
-                    <rect key="frame" x="250" y="445" width="109" height="109"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Interests" translatesAutoresizingMaskIntoConstraints="NO" id="uh4-66-In3">
-                    <rect key="frame" x="133" y="90" width="109" height="109"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Sports" translatesAutoresizingMaskIntoConstraints="NO" id="Vic-iA-41U">
-                    <rect key="frame" x="250" y="90" width="109" height="109"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_nav_bar" translatesAutoresizingMaskIntoConstraints="NO" id="GIZ-Ng-Emf">
-                    <rect key="frame" x="-8" y="-10" width="393" height="71"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Classes" translatesAutoresizingMaskIntoConstraints="NO" id="Hzo-HY-b4j">
-                    <rect key="frame" x="16" y="90" width="109" height="109"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_school_involvement_txt" translatesAutoresizingMaskIntoConstraints="NO" id="gXc-El-cGu">
-                    <rect key="frame" x="253" y="384" width="102" height="48"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Sports_txt" translatesAutoresizingMaskIntoConstraints="NO" id="DAX-SM-qeq">
-                    <rect key="frame" x="277" y="198" width="55" height="42"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Work_experience_txt" translatesAutoresizingMaskIntoConstraints="NO" id="VBi-22-8Al">
-                    <rect key="frame" x="133" y="384" width="102" height="48"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_volunteering_txt" translatesAutoresizingMaskIntoConstraints="NO" id="Xom-aN-Rt8">
-                    <rect key="frame" x="16" y="396" width="106" height="24"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_interests_txt" translatesAutoresizingMaskIntoConstraints="NO" id="yg4-U5-T0W">
-                    <rect key="frame" x="148" y="207" width="72" height="24"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Testing_txt" translatesAutoresizingMaskIntoConstraints="NO" id="TCA-dd-O3S">
-                    <rect key="frame" x="33" y="562" width="62" height="24"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_awards_txt" translatesAutoresizingMaskIntoConstraints="NO" id="ku2-BB-bWx">
-                    <rect key="frame" x="155" y="562" width="64" height="24"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_other_txt" translatesAutoresizingMaskIntoConstraints="NO" id="v4J-e7-IFG">
-                    <rect key="frame" x="280" y="562" width="48" height="24"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Classes_txt" translatesAutoresizingMaskIntoConstraints="NO" id="ECu-A1-mMW">
-                    <rect key="frame" x="31" y="207" width="67" height="24"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_overview_btn" translatesAutoresizingMaskIntoConstraints="NO" id="hfB-vc-roN">
-                    <rect key="frame" x="116" y="606" width="137" height="41"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Menu_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="jtm-iN-ZMm">
-                    <rect key="frame" x="10" y="10" width="30" height="30"/>
+                    <rect key="frame" x="0.0" y="45" width="375" height="628"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Title" translatesAutoresizingMaskIntoConstraints="NO" id="fO7-hM-fJV" userLabel="Title">
-                    <rect key="frame" x="58" y="5" width="280" height="56"/>
+                    <rect key="frame" x="56" y="6" width="262" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Menu_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="jtm-iN-ZMm">
+                    <rect key="frame" x="10" y="13" width="26" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_overview_btn" translatesAutoresizingMaskIntoConstraints="NO" id="hfB-vc-roN">
+                    <rect key="frame" x="116" y="606" width="143" height="56"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Classes_txt" translatesAutoresizingMaskIntoConstraints="NO" id="ECu-A1-mMW">
+                    <rect key="frame" x="44" y="206" width="60" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_other_txt" translatesAutoresizingMaskIntoConstraints="NO" id="v4J-e7-IFG">
+                    <rect key="frame" x="288" y="562" width="42" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_awards_txt" translatesAutoresizingMaskIntoConstraints="NO" id="ku2-BB-bWx">
+                    <rect key="frame" x="155" y="562" width="56" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Testing_txt" translatesAutoresizingMaskIntoConstraints="NO" id="TCA-dd-O3S">
+                    <rect key="frame" x="33" y="562" width="55" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_interests_txt" translatesAutoresizingMaskIntoConstraints="NO" id="yg4-U5-T0W">
+                    <rect key="frame" x="151" y="206" width="65" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_volunteering_txt" translatesAutoresizingMaskIntoConstraints="NO" id="Xom-aN-Rt8">
+                    <rect key="frame" x="21" y="392" width="95" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Work_experience_txt" translatesAutoresizingMaskIntoConstraints="NO" id="VBi-22-8Al">
+                    <rect key="frame" x="145" y="384" width="84" height="42"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Sports_txt" translatesAutoresizingMaskIntoConstraints="NO" id="DAX-SM-qeq">
+                    <rect key="frame" x="277" y="207" width="47" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_school_involvement_txt" translatesAutoresizingMaskIntoConstraints="NO" id="gXc-El-cGu">
+                    <rect key="frame" x="254" y="384" width="92" height="42"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="navbar_bg" translatesAutoresizingMaskIntoConstraints="NO" id="GIZ-Ng-Emf">
+                    <rect key="frame" x="-9" y="-9" width="393" height="68"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Sports" translatesAutoresizingMaskIntoConstraints="NO" id="Vic-iA-41U">
+                    <rect key="frame" x="242" y="90" width="117" height="117"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Interests" translatesAutoresizingMaskIntoConstraints="NO" id="uh4-66-In3">
+                    <rect key="frame" x="126" y="90" width="117" height="117"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Other" translatesAutoresizingMaskIntoConstraints="NO" id="DpR-d9-LJL">
+                    <rect key="frame" x="251" y="445" width="117" height="117"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Awards" translatesAutoresizingMaskIntoConstraints="NO" id="tW5-Pu-S4p">
+                    <rect key="frame" x="126" y="445" width="117" height="117"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_StandardizedTesting" translatesAutoresizingMaskIntoConstraints="NO" id="qcI-yd-gjM">
+                    <rect key="frame" x="10" y="445" width="117" height="117"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_SchoolInvolvement" translatesAutoresizingMaskIntoConstraints="NO" id="bUG-BW-ygs">
+                    <rect key="frame" x="242" y="267" width="117" height="117"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_WorkExperience" translatesAutoresizingMaskIntoConstraints="NO" id="CCF-Ii-SZo">
+                    <rect key="frame" x="126" y="267" width="117" height="117"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Volunteering" translatesAutoresizingMaskIntoConstraints="NO" id="gBg-cF-YUF">
+                    <rect key="frame" x="10" y="267" width="117" height="117"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Classes" translatesAutoresizingMaskIntoConstraints="NO" id="Hzo-HY-b4j">
+                    <rect key="frame" x="16" y="90" width="117" height="117"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Menu_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="gYJ-Ah-Bb9">
+                    <rect key="frame" x="10" y="10" width="26" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AT_Title" translatesAutoresizingMaskIntoConstraints="NO" id="3GD-8v-Y7A">
+                    <rect key="frame" x="56" y="4" width="262" height="50"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="0.78007019020000001" green="0.55155677970000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-            <point key="canvasLocation" x="24.5" y="51.5"/>
+            <point key="canvasLocation" x="45" y="72"/>
         </view>
         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fJf-py-hca">
             <rect key="frame" x="0.0" y="0.0" width="60" height="21"/>
@@ -124,28 +132,28 @@
         </label>
     </objects>
     <resources>
-        <image name="AT_Awards" width="108" height="108"/>
-        <image name="AT_BG" width="414" height="681"/>
-        <image name="AT_Classes" width="108" height="108"/>
-        <image name="AT_Classes_txt" width="67" height="24"/>
-        <image name="AT_Interests" width="108" height="108"/>
-        <image name="AT_Other" width="108" height="108"/>
-        <image name="AT_SchoolInvolvement" width="108" height="108"/>
-        <image name="AT_Sports" width="108" height="108"/>
-        <image name="AT_Sports_txt" width="55" height="24"/>
-        <image name="AT_StandardizedTesting" width="108" height="108"/>
-        <image name="AT_Testing_txt" width="61" height="24"/>
-        <image name="AT_Title" width="311" height="56"/>
-        <image name="AT_Volunteering" width="108" height="108"/>
-        <image name="AT_WorkExperience" width="108" height="108"/>
-        <image name="AT_Work_experience_txt" width="94" height="48"/>
-        <image name="AT_awards_txt" width="64" height="24"/>
-        <image name="AT_interests_txt" width="72" height="24"/>
-        <image name="AT_nav_bar" width="432" height="73"/>
-        <image name="AT_other_txt" width="48" height="24"/>
-        <image name="AT_overview_btn" width="137" height="41"/>
-        <image name="AT_school_involvement_txt" width="102" height="48"/>
-        <image name="AT_volunteering_txt" width="106" height="24"/>
-        <image name="Menu_Icon" width="28" height="27"/>
+        <image name="AT_Awards" width="116" height="116"/>
+        <image name="AT_BG" width="375" height="617"/>
+        <image name="AT_Classes" width="116" height="116"/>
+        <image name="AT_Classes_txt" width="60" height="21"/>
+        <image name="AT_Interests" width="116" height="116"/>
+        <image name="AT_Other" width="116" height="116"/>
+        <image name="AT_SchoolInvolvement" width="116" height="116"/>
+        <image name="AT_Sports" width="116" height="116"/>
+        <image name="AT_Sports_txt" width="47" height="20"/>
+        <image name="AT_StandardizedTesting" width="115" height="115"/>
+        <image name="AT_Testing_txt" width="55" height="21"/>
+        <image name="AT_Title" width="262" height="50"/>
+        <image name="AT_Volunteering" width="113" height="113"/>
+        <image name="AT_WorkExperience" width="116" height="116"/>
+        <image name="AT_Work_experience_txt" width="84" height="42"/>
+        <image name="AT_awards_txt" width="56" height="21"/>
+        <image name="AT_interests_txt" width="65" height="21"/>
+        <image name="AT_other_txt" width="42" height="20"/>
+        <image name="AT_overview_btn" width="142" height="55"/>
+        <image name="AT_school_involvement_txt" width="92" height="42"/>
+        <image name="AT_volunteering_txt" width="95" height="21"/>
+        <image name="Menu_Icon" width="26" height="25"/>
+        <image name="navbar_bg" width="393" height="67"/>
     </resources>
 </document>
