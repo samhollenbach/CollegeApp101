@@ -29,7 +29,7 @@
                     <state key="normal" backgroundImage="Menu_Icon"/>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hub_tabs_bg" translatesAutoresizingMaskIntoConstraints="NO" id="T0y-7N-gTE">
-                    <rect key="frame" x="0.0" y="253" width="375" height="409"/>
+                    <rect key="frame" x="0.0" y="253" width="375" height="414"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="College_BG" translatesAutoresizingMaskIntoConstraints="NO" id="WPo-Y5-OuH">
@@ -48,8 +48,8 @@
                     <rect key="frame" x="146" y="139" width="139" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hub_card" translatesAutoresizingMaskIntoConstraints="NO" id="P69-pk-KjI">
-                    <rect key="frame" x="16" y="298" width="343" height="420"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hub_card" translatesAutoresizingMaskIntoConstraints="NO" id="P69-pk-KjI">
+                    <rect key="frame" x="16" y="298" width="343" height="134"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hub_title" translatesAutoresizingMaskIntoConstraints="NO" id="Km6-Ep-jNa">
