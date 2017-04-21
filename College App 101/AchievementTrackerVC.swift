@@ -10,6 +10,18 @@ import UIKit
 
 class AchievementTrackerVC: UIViewController {
 
+    @IBOutlet weak var classesBtn: UIButton!
+    @IBOutlet weak var interestsBtn: UIButton!
+    @IBOutlet weak var sportsBtn: UIButton!
+    @IBOutlet weak var volunteeringBtn: UIButton!
+    @IBOutlet weak var workExperienceBtn: UIButton!
+    @IBOutlet weak var schoolInvolvementBtn: UIButton!
+    @IBOutlet weak var testingBtn: UIButton!
+    @IBOutlet weak var awardsBtn: UIButton!
+    @IBOutlet weak var otherBtn: UIButton!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,6 +32,12 @@ class AchievementTrackerVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    @IBAction func classesPressed(_ sender: UIButton) {
+    }
+    
+    
     
 
     /*
