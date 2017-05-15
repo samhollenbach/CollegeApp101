@@ -35,6 +35,33 @@ class AchievementTrackerVC: UIViewController {
     
     
     @IBAction func classesPressed(_ sender: UIButton) {
+        classesBtn.setTitle("YEE BRUH", for: .normal)
+    }
+    
+    @IBAction func interestsPressed(_ sender: UIButton) {
+        interestsBtn.setTitle("YEE BRUH", for: .normal)
+    }
+    
+    @IBAction func sportsPressed(_ sender: Any) {
+        sportsBtn.setTitle("YEE BRUH", for: .normal)
+    }
+    
+    @IBAction func volunteeringPressed(_ sender: Any) {
+    }
+    
+    @IBAction func workExperiencePressed(_ sender: Any) {
+    }
+    
+    @IBAction func schoolInvolvementPressed(_ sender: Any) {
+    }
+    
+    @IBAction func testingPressed(_ sender: Any) {
+    }
+    
+    @IBAction func awardsPressed(_ sender: Any) {
+    }
+    
+    @IBAction func otherPressed(_ sender: Any) {
     }
     
     
