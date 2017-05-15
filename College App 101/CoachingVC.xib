@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -13,6 +13,11 @@
             <connections>
                 <outlet property="CloseButton" destination="gWF-xC-haj" id="31R-1Z-mTc"/>
                 <outlet property="SAT_Guide_Image" destination="ylf-7B-dhR" id="obN-xa-pSW"/>
+                <outlet property="essayReviewBtn" destination="KsS-GD-HE1" id="vNR-Hf-yPM"/>
+                <outlet property="generalBtn" destination="bct-f3-wrl" id="0F0-z8-bdG"/>
+                <outlet property="oooBtn" destination="xNM-DS-DEN" id="iI9-wB-cBn"/>
+                <outlet property="pickSchoolsBtn" destination="j30-PG-i22" id="5xT-1i-0XJ"/>
+                <outlet property="selectedOutline" destination="MYG-3x-iLu" id="uaM-4g-So9"/>
                 <outlet property="view" destination="ApB-eX-bUE" id="gzt-Vl-DYE"/>
             </connections>
         </placeholder>
@@ -52,26 +57,6 @@
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="essay_description_txt" translatesAutoresizingMaskIntoConstraints="NO" id="KOd-Zb-VLM">
                     <rect key="frame" x="16" y="123" width="177" height="57"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Essay_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="swD-Na-Ebw">
-                    <rect key="frame" x="119" y="264" width="51" height="51"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pick_School_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="zVw-tP-UW2">
-                    <rect key="frame" x="28" y="264" width="51" height="51"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="101_icon" translatesAutoresizingMaskIntoConstraints="NO" id="wtQ-Av-r8C">
-                    <rect key="frame" x="210" y="264" width="51" height="51"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="General_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="b7p-ng-nrl">
-                    <rect key="frame" x="296" y="264" width="51" height="51"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="selected_session_boarder" translatesAutoresizingMaskIntoConstraints="NO" id="MYG-3x-iLu">
-                    <rect key="frame" x="91" y="258" width="106" height="62"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="frame_line_2" translatesAutoresizingMaskIntoConstraints="NO" id="pMS-x2-gUG">
@@ -127,11 +112,11 @@
                     </connections>
                 </button>
                 <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SAT_GUIDE" translatesAutoresizingMaskIntoConstraints="NO" id="ylf-7B-dhR">
-                    <rect key="frame" x="1" y="0.0" width="375" height="667"/>
+                    <rect key="frame" x="1" y="328" width="375" height="339"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWF-xC-haj" userLabel="CloseGuideButton">
-                    <rect key="frame" x="1" y="0.0" width="375" height="667"/>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWF-xC-haj" userLabel="CloseGuideButton">
+                    <rect key="frame" x="1" y="328" width="375" height="339"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <connections>
                         <action selector="closeSATGuide:" destination="-1" eventType="touchUpInside" id="jfq-jV-VgQ"/>
@@ -149,6 +134,42 @@
                     <rect key="frame" x="4" y="563" width="367" height="1"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bct-f3-wrl">
+                    <rect key="frame" x="301" y="264" width="51" height="51"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="General_Icon"/>
+                    <connections>
+                        <action selector="generalPressed:" destination="-1" eventType="touchUpInside" id="n9J-7h-Nva"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNM-DS-DEN">
+                    <rect key="frame" x="210" y="264" width="51" height="51"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="101_icon"/>
+                    <connections>
+                        <action selector="oooPressed:" destination="-1" eventType="touchUpInside" id="UJF-wW-tmb"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="selected_session_boarder" translatesAutoresizingMaskIntoConstraints="NO" id="MYG-3x-iLu">
+                    <rect key="frame" x="182" y="258" width="106" height="62"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j30-PG-i22">
+                    <rect key="frame" x="16" y="264" width="51" height="51"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="Pick_School_Icon"/>
+                    <connections>
+                        <action selector="pickSchoolsPressed:" destination="-1" eventType="touchUpInside" id="1BH-mb-9Dx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KsS-GD-HE1">
+                    <rect key="frame" x="111" y="264" width="51" height="51"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="Essay_Icon"/>
+                    <connections>
+                        <action selector="essayReviewPressed:" destination="-1" eventType="touchUpInside" id="RnB-qe-Kjs"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.48564387840000001" green="0.9054523887" blue="0.096779816049999995" alpha="1" colorSpace="calibratedRGB"/>
             <gestureRecognizers/>

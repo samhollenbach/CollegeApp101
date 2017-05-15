@@ -14,6 +14,16 @@ class CoachingVC: UIViewController {
     
     @IBOutlet weak var CloseButton: UIButton!
     
+    @IBOutlet weak var generalBtn: UIButton!
+    
+    @IBOutlet weak var oooBtn: UIButton!
+    
+    @IBOutlet weak var selectedOutline: UIImageView!
+    
+    @IBOutlet weak var essayReviewBtn: UIButton!
+
+    @IBOutlet weak var pickSchoolsBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,14 +46,33 @@ class CoachingVC: UIViewController {
     }
     
     @IBAction func closeSATGuide(_ sender: AnyObject) {
-        CloseButton.isEnabled = false
-        UIView.animate(withDuration: 0.5, animations: {
-                self.SAT_Guide_Image.alpha = 0
+        CloseButton.isEnabled = false                       //I MOVED THE CLOSE BOX DOWN
+        UIView.animate(withDuration: 0.5, animations: {     //CUZ I DIDNT KNOW HOW TO
+                self.SAT_Guide_Image.alpha = 0              //CLICK THE BUTTONS UNDER IT
             }, completion: { finished in
                 self.SAT_Guide_Image.isHidden = true
             })
         
     }
+    
+    @IBAction func generalPressed(_ sender: UIButton) {
+        UIView.animate(withDuration: 0.5, animations: {self.selectedOutline.center.x = self.generalBtn.center.x}, completion: nil)
+    }
+    
+    @IBAction func oooPressed(_ sender: UIButton) {
+        UIView.animate(withDuration: 0.5, animations: {self.selectedOutline.center.x = self.oooBtn.center.x}, completion: nil)
+    }
+    
+    @IBAction func essayReviewPressed(_ sender: UIButton) {
+        UIView.animate(withDuration: 0.5, animations: {self.selectedOutline.center.x = self.essayReviewBtn.center.x}, completion: nil)
+    }
+    
+    @IBAction func pickSchoolsPressed(_ sender: UIButton) {
+        UIView.animate(withDuration: 0.5, animations: {self.selectedOutline.center.x = self.pickSchoolsBtn.center.x}, completion: nil)
+
+    }
+    
+    
     /*
     // MARK: - Navigation
 
