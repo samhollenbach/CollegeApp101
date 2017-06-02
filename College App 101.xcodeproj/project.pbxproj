@@ -13,6 +13,8 @@
 		C1302EB61E6E9A730052BD26 /* TheHubVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1302EB41E6E9A730052BD26 /* TheHubVC.xib */; };
 		C1302EB91E6E9A800052BD26 /* AchievementTrackerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1302EB71E6E9A800052BD26 /* AchievementTrackerVC.swift */; };
 		C1302EBA1E6E9A800052BD26 /* AchievementTrackerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1302EB81E6E9A800052BD26 /* AchievementTrackerVC.xib */; };
+		C193D7E91EE10EED008677E3 /* CoachHubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C193D7E71EE10EED008677E3 /* CoachHubVC.swift */; };
+		C193D7EA1EE10EED008677E3 /* CoachHubVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C193D7E81EE10EED008677E3 /* CoachHubVC.xib */; };
 		E913EB7A1E63F4C000F6EC1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E913EB791E63F4C000F6EC1C /* AppDelegate.swift */; };
 		E913EB7C1E63F4C000F6EC1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E913EB7B1E63F4C000F6EC1C /* ViewController.swift */; };
 		E913EB7F1E63F4C000F6EC1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E913EB7D1E63F4C000F6EC1C /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 		C1302EB41E6E9A730052BD26 /* TheHubVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TheHubVC.xib; sourceTree = "<group>"; };
 		C1302EB71E6E9A800052BD26 /* AchievementTrackerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementTrackerVC.swift; sourceTree = "<group>"; };
 		C1302EB81E6E9A800052BD26 /* AchievementTrackerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AchievementTrackerVC.xib; sourceTree = "<group>"; };
+		C193D7E71EE10EED008677E3 /* CoachHubVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachHubVC.swift; sourceTree = "<group>"; };
+		C193D7E81EE10EED008677E3 /* CoachHubVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoachHubVC.xib; sourceTree = "<group>"; };
 		E913EB761E63F4C000F6EC1C /* College App 101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College App 101.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E913EB791E63F4C000F6EC1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E913EB7B1E63F4C000F6EC1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +82,15 @@
 			name = AchievementTracker;
 			sourceTree = "<group>";
 		};
+		C193D7E61EE10E95008677E3 /* CoachHub */ = {
+			isa = PBXGroup;
+			children = (
+				C193D7E71EE10EED008677E3 /* CoachHubVC.swift */,
+				C193D7E81EE10EED008677E3 /* CoachHubVC.xib */,
+			);
+			name = CoachHub;
+			sourceTree = "<group>";
+		};
 		E913EB6D1E63F4C000F6EC1C = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +110,7 @@
 		E913EB781E63F4C000F6EC1C /* College App 101 */ = {
 			isa = PBXGroup;
 			children = (
+				C193D7E61EE10E95008677E3 /* CoachHub */,
 				C1302EAE1E6E9A510052BD26 /* AchievementTracker */,
 				C1302EAD1E6E9A490052BD26 /* TheHub */,
 				C1302EA81E6E99FB0052BD26 /* Coaching */,
@@ -185,6 +199,7 @@
 				E913EB841E63F4C000F6EC1C /* LaunchScreen.storyboard in Resources */,
 				E913EB811E63F4C000F6EC1C /* Assets.xcassets in Resources */,
 				C1302EB61E6E9A730052BD26 /* TheHubVC.xib in Resources */,
+				C193D7EA1EE10EED008677E3 /* CoachHubVC.xib in Resources */,
 				C1302EBA1E6E9A800052BD26 /* AchievementTrackerVC.xib in Resources */,
 				E913EB7F1E63F4C000F6EC1C /* Main.storyboard in Resources */,
 			);
@@ -199,6 +214,7 @@
 			files = (
 				C1302EB11E6E9A640052BD26 /* CoachingVC.swift in Sources */,
 				E913EB7C1E63F4C000F6EC1C /* ViewController.swift in Sources */,
+				C193D7E91EE10EED008677E3 /* CoachHubVC.swift in Sources */,
 				C1302EB51E6E9A730052BD26 /* TheHubVC.swift in Sources */,
 				E913EB8E1E63F97A00F6EC1C /* LoginController.swift in Sources */,
 				E913EB7A1E63F4C000F6EC1C /* AppDelegate.swift in Sources */,
