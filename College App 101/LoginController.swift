@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class LoginController: UIViewController {
     
@@ -14,9 +15,13 @@ class LoginController: UIViewController {
     
     @IBOutlet weak var password: UITextField!
     
+    var handle: AuthStateDidChangeListenerHandle?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        handle = Auth.auth().addStateDidChangeListener { (auth, user) in
+            // ...
+        }
         // Do any additional setup after loading the view.
     }
     
@@ -26,7 +31,24 @@ class LoginController: UIViewController {
     }
     
     @IBAction func loginPressed(_ sender: Any) {
-        //LOGIN PRESSED, CHECK IF USERNAME AND PASSWORD ARE A LEGIT ACOUNT, THEN LOGIN
+        if let email = self.username.text, let password = self.password.text {
+                // [START headless_email_auth]
+                Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
+                    // [START_EXCLUDE]
+                    self.hideSpinner {
+                        if let error = error {
+                            self.showMessagePrompt(error.localizedDescription)
+                            return
+                        }
+                        self.navigationController!.popViewController(animated: true)
+                    }
+                    // [END_EXCLUDE]
+                }
+                // [END headless_email_auth]
+            
+        } else {
+            //self.showMessagePrompt("email/password can't be empty")
+        }
     }
     
     
