@@ -10,6 +10,10 @@ import UIKit
 
 class LoginController: UIViewController {
     
+    @IBOutlet weak var username: UITextField!
+    
+    @IBOutlet weak var password: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,6 +25,9 @@ class LoginController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func loginPressed(_ sender: Any) {
+        //LOGIN PRESSED, CHECK IF USERNAME AND PASSWORD ARE A LEGIT ACOUNT, THEN LOGIN
+    }
     
     /*
      // MARK: - Navigation
