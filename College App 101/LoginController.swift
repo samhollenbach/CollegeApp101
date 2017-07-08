@@ -34,14 +34,12 @@ class LoginController: UIViewController {
         if let email = self.username.text, let password = self.password.text {
                 // [START headless_email_auth]
                 Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
-                    // [START_EXCLUDE]
-                    self.hideSpinner {
-                        if let error = error {
-                            self.showMessagePrompt(error.localizedDescription)
-                            return
-                        }
-                        self.navigationController!.popViewController(animated: true)
+                    if error != nil {
+                        //self.showMessagePrompt(error.localizedDescription)
+                        return
                     }
+                    self.navigationController!.popViewController(animated: true)
+                    
                     // [END_EXCLUDE]
                 }
                 // [END headless_email_auth]
