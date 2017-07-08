@@ -91,6 +91,25 @@
 			name = CoachHub;
 			sourceTree = "<group>";
 		};
+		C193D7EB1EE10FCA008677E3 /* Student Version */ = {
+			isa = PBXGroup;
+			children = (
+				E913EB7B1E63F4C000F6EC1C /* ViewController.swift */,
+				C1302EAE1E6E9A510052BD26 /* AchievementTracker */,
+				C1302EAD1E6E9A490052BD26 /* TheHub */,
+				C1302EA81E6E99FB0052BD26 /* Coaching */,
+			);
+			name = "Student Version";
+			sourceTree = "<group>";
+		};
+		C193D7EC1EE11112008677E3 /* Coach Version */ = {
+			isa = PBXGroup;
+			children = (
+				C193D7E61EE10E95008677E3 /* CoachHub */,
+			);
+			name = "Coach Version";
+			sourceTree = "<group>";
+		};
 		E913EB6D1E63F4C000F6EC1C = {
 			isa = PBXGroup;
 			children = (
@@ -110,13 +129,10 @@
 		E913EB781E63F4C000F6EC1C /* College App 101 */ = {
 			isa = PBXGroup;
 			children = (
-				C193D7E61EE10E95008677E3 /* CoachHub */,
-				C1302EAE1E6E9A510052BD26 /* AchievementTracker */,
-				C1302EAD1E6E9A490052BD26 /* TheHub */,
-				C1302EA81E6E99FB0052BD26 /* Coaching */,
+				C193D7EC1EE11112008677E3 /* Coach Version */,
+				C193D7EB1EE10FCA008677E3 /* Student Version */,
 				E913EB8F1E63F9CA00F6EC1C /* Login */,
 				E913EB791E63F4C000F6EC1C /* AppDelegate.swift */,
-				E913EB7B1E63F4C000F6EC1C /* ViewController.swift */,
 				E913EB7D1E63F4C000F6EC1C /* Main.storyboard */,
 				E913EB801E63F4C000F6EC1C /* Assets.xcassets */,
 				E913EB821E63F4C000F6EC1C /* LaunchScreen.storyboard */,
