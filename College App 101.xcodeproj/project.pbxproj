@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52CBEDB3DBE1C318F69CFBB1 /* Pods_College_App_101.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112476EFEB5828C74D1B5351 /* Pods_College_App_101.framework */; };
 		C1302EB11E6E9A640052BD26 /* CoachingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1302EAF1E6E9A640052BD26 /* CoachingVC.swift */; };
 		C1302EB21E6E9A640052BD26 /* CoachingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1302EB01E6E9A640052BD26 /* CoachingVC.xib */; };
 		C1302EB51E6E9A730052BD26 /* TheHubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1302EB31E6E9A730052BD26 /* TheHubVC.swift */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		112476EFEB5828C74D1B5351 /* Pods_College_App_101.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_College_App_101.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63746F5419ABEDC9351375C4 /* Pods-College App 101.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College App 101.debug.xcconfig"; path = "Pods/Target Support Files/Pods-College App 101/Pods-College App 101.debug.xcconfig"; sourceTree = "<group>"; };
 		C1302EAF1E6E9A640052BD26 /* CoachingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachingVC.swift; sourceTree = "<group>"; };
 		C1302EB01E6E9A640052BD26 /* CoachingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoachingVC.xib; sourceTree = "<group>"; };
 		C1302EB31E6E9A730052BD26 /* TheHubVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheHubVC.swift; sourceTree = "<group>"; };
@@ -33,6 +36,7 @@
 		C1302EB81E6E9A800052BD26 /* AchievementTrackerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AchievementTrackerVC.xib; sourceTree = "<group>"; };
 		C193D7E71EE10EED008677E3 /* CoachHubVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachHubVC.swift; sourceTree = "<group>"; };
 		C193D7E81EE10EED008677E3 /* CoachHubVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoachHubVC.xib; sourceTree = "<group>"; };
+		DB7D215A6EFDE64328F56F71 /* Pods-College App 101.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College App 101.release.xcconfig"; path = "Pods/Target Support Files/Pods-College App 101/Pods-College App 101.release.xcconfig"; sourceTree = "<group>"; };
 		E913EB761E63F4C000F6EC1C /* College App 101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College App 101.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E913EB791E63F4C000F6EC1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E913EB7B1E63F4C000F6EC1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,12 +53,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CBEDB3DBE1C318F69CFBB1 /* Pods_College_App_101.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0E8B18CAB9A793FDD882A19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63746F5419ABEDC9351375C4 /* Pods-College App 101.debug.xcconfig */,
+				DB7D215A6EFDE64328F56F71 /* Pods-College App 101.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1115DB06E9D036A5D3D5E0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112476EFEB5828C74D1B5351 /* Pods_College_App_101.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C1302EA81E6E99FB0052BD26 /* Coaching */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +137,8 @@
 			children = (
 				E913EB781E63F4C000F6EC1C /* College App 101 */,
 				E913EB771E63F4C000F6EC1C /* Products */,
+				A0E8B18CAB9A793FDD882A19 /* Pods */,
+				A1115DB06E9D036A5D3D5E0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E913EB881E63F4C000F6EC1C /* Build configuration list for PBXNativeTarget "College App 101" */;
 			buildPhases = (
+				93224BB3DAC1526078D6D2F5 /* [CP] Check Pods Manifest.lock */,
 				E913EB721E63F4C000F6EC1C /* Sources */,
 				E913EB731E63F4C000F6EC1C /* Frameworks */,
 				E913EB741E63F4C000F6EC1C /* Resources */,
+				DF976E7B1C3471873B2F5D12 /* [CP] Embed Pods Frameworks */,
+				08ADC77603F2715A7834C58D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,6 +250,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08ADC77603F2715A7834C58D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-College App 101/Pods-College App 101-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93224BB3DAC1526078D6D2F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF976E7B1C3471873B2F5D12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-College App 101/Pods-College App 101-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E913EB721E63F4C000F6EC1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,6 +353,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -328,6 +404,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -355,6 +432,7 @@
 		};
 		E913EB891E63F4C000F6EC1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63746F5419ABEDC9351375C4 /* Pods-College App 101.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -369,6 +447,7 @@
 		};
 		E913EB8A1E63F4C000F6EC1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB7D215A6EFDE64328F56F71 /* Pods-College App 101.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
