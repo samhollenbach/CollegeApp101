@@ -7,4 +7,6 @@ target 'College App 101' do
 
   # Pods for College App 101
 pod ‘Firebase/Core’
+pod ‘Firebase/Auth’
+pod ‘Firebase/Database’
 end
