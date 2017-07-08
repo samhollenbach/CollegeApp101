@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fb8-Uh-vvD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fb8-Uh-vvD">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -51,16 +51,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_bg" translatesAutoresizingMaskIntoConstraints="NO" id="5IE-M9-MBK">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQ1-lx-NPX">
-                                <rect key="frame" x="112" y="414" width="150" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Login" backgroundImage="log_bg">
-                                    <color key="titleColor" red="1" green="0.988595051916346" blue="0.95438020766538401" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="IFp-3b-twF" kind="show" id="aXX-iO-ef2"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVa-DF-dNa">
                                 <rect key="frame" x="158" y="462" width="59" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -93,6 +83,17 @@
                                 <rect key="frame" x="80" y="30" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQ1-lx-NPX">
+                                <rect key="frame" x="112" y="414" width="150" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Login" backgroundImage="log_bg">
+                                    <color key="titleColor" red="1" green="0.988595051916346" blue="0.95438020766538401" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginPressed:" destination="fb8-Uh-vvD" eventType="touchUpInside" id="HtR-gS-mOv"/>
+                                    <segue destination="IFp-3b-twF" kind="show" id="aXX-iO-ef2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3347363357718186" green="0.88371571979912278" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -102,6 +103,10 @@
                             <constraint firstItem="5IE-M9-MBK" firstAttribute="leading" secondItem="Zxu-ei-0P0" secondAttribute="leading" id="fZ9-Eq-sHg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="password" destination="LoN-tH-g5s" id="dpT-PP-l3C"/>
+                        <outlet property="username" destination="Cis-DS-UzA" id="HNQ-1X-xEQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dUS-wD-exH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
