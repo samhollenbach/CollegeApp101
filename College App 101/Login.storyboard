@@ -57,6 +57,9 @@
                                 <state key="normal" title="Sign Up!">
                                     <color key="titleColor" red="1" green="0.988595051916346" blue="0.95438020766538401" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="signupPressed:" destination="fb8-Uh-vvD" eventType="touchUpInside" id="vJN-U6-ZGQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xj1-I8-RFJ">
                                 <rect key="frame" x="236" y="348" width="123" height="30"/>
@@ -91,7 +94,6 @@
                                 </state>
                                 <connections>
                                     <action selector="loginPressed:" destination="fb8-Uh-vvD" eventType="touchUpInside" id="HtR-gS-mOv"/>
-                                    <segue destination="IFp-3b-twF" kind="show" id="aXX-iO-ef2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -104,13 +106,14 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="password" destination="LoN-tH-g5s" id="dpT-PP-l3C"/>
+                        <outlet property="passfield" destination="LoN-tH-g5s" id="7J0-4K-A02"/>
                         <outlet property="username" destination="Cis-DS-UzA" id="HNQ-1X-xEQ"/>
+                        <segue destination="IFp-3b-twF" kind="show" identifier="loginSegue" id="Cc4-l4-SIU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dUS-wD-exH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="37.600000000000001" y="183.95802098950526"/>
+            <point key="canvasLocation" x="25" y="167"/>
         </scene>
     </scenes>
     <resources>
