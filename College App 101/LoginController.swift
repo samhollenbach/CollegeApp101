@@ -32,18 +32,7 @@ class LoginController: UIViewController {
     
     @IBAction func loginPressed(_ sender: Any) {
         if let email = self.username.text, let password = self.password.text {
-                // [START headless_email_auth]
-                Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
-                    if error != nil {
-                        //self.showMessagePrompt(error.localizedDescription)
-                        return
-                    }
-                    self.navigationController!.popViewController(animated: true)
-                    
-                    // [END_EXCLUDE]
-                }
-                // [END headless_email_auth]
-            
+            Auth.auth().createUser(withEmail: email, password: password)
         } else {
             //self.showMessagePrompt("email/password can't be empty")
         }
