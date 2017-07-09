@@ -23,6 +23,7 @@
 		E913EB841E63F4C000F6EC1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E913EB821E63F4C000F6EC1C /* LaunchScreen.storyboard */; };
 		E913EB8C1E63F96900F6EC1C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E913EB8B1E63F96900F6EC1C /* Login.storyboard */; };
 		E913EB8E1E63F97A00F6EC1C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E913EB8D1E63F97A00F6EC1C /* LoginController.swift */; };
+		E990A3FA1F11B6F600DB6D56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E990A3F91F11B6F600DB6D56 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		E913EB851E63F4C000F6EC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E913EB8B1E63F96900F6EC1C /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		E913EB8D1E63F97A00F6EC1C /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		E990A3F91F11B6F600DB6D56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 				E913EB801E63F4C000F6EC1C /* Assets.xcassets */,
 				E913EB821E63F4C000F6EC1C /* LaunchScreen.storyboard */,
 				E913EB851E63F4C000F6EC1C /* Info.plist */,
+				E990A3F91F11B6F600DB6D56 /* GoogleService-Info.plist */,
 			);
 			path = "College App 101";
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			files = (
 				C1302EB21E6E9A640052BD26 /* CoachingVC.xib in Resources */,
 				E913EB8C1E63F96900F6EC1C /* Login.storyboard in Resources */,
+				E990A3FA1F11B6F600DB6D56 /* GoogleService-Info.plist in Resources */,
 				E913EB841E63F4C000F6EC1C /* LaunchScreen.storyboard in Resources */,
 				E913EB811E63F4C000F6EC1C /* Assets.xcassets in Resources */,
 				C1302EB61E6E9A730052BD26 /* TheHubVC.xib in Resources */,
