@@ -91,6 +91,13 @@
                                     <action selector="loginPressed:" destination="fb8-Uh-vvD" eventType="touchUpInside" id="HtR-gS-mOv"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEN-F6-j11">
+                                <frame key="frameInset" minX="16" minY="385" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.3347363357718186" green="0.88371571979912278" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -101,6 +108,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="loginStatusLabel" destination="eEN-F6-j11" id="xEO-dm-Sqi"/>
                         <outlet property="passfield" destination="LoN-tH-g5s" id="7J0-4K-A02"/>
                         <outlet property="username" destination="Cis-DS-UzA" id="HNQ-1X-xEQ"/>
                         <segue destination="IFp-3b-twF" kind="show" identifier="loginSegue" id="Cc4-l4-SIU"/>
@@ -108,7 +116,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dUS-wD-exH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="25" y="167"/>
+            <point key="canvasLocation" x="24.800000000000001" y="166.8665667166417"/>
         </scene>
     </scenes>
     <resources>
