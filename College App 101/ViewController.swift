@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //let appDelegate = UIApplication.shared.delegate as! AppDelegate
         
         let vc0 = CoachingVC(nibName: "CoachingVC", bundle: nil)
         self.addChildViewController(vc0)
@@ -39,7 +40,14 @@ class ViewController: UIViewController {
         
         self.mainScroll.contentSize = CGSize(width: self.view.frame.size.width * 3, height: self.view.frame.size.height)
         self.mainScroll.contentOffset.x = self.view.frame.size.width
-
+    }
+    
+    //THIS METHOD WORKS, figure out where/how to call it appropriately.
+    public func segueCoachingLobby(){
+        let newVC = CoachingLobbyVC(nibName: "CoachingLobbyVC", bundle: nil)
+        self.addChildViewController(newVC)
+        self.mainScroll!.addSubview(newVC.view)
+        newVC.didMove(toParentViewController: self)
         
     }
 

@@ -14,6 +14,8 @@
 		C1302EB61E6E9A730052BD26 /* TheHubVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1302EB41E6E9A730052BD26 /* TheHubVC.xib */; };
 		C1302EB91E6E9A800052BD26 /* AchievementTrackerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1302EB71E6E9A800052BD26 /* AchievementTrackerVC.swift */; };
 		C1302EBA1E6E9A800052BD26 /* AchievementTrackerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1302EB81E6E9A800052BD26 /* AchievementTrackerVC.xib */; };
+		C13A1B181F48DE9400A49C12 /* CoachingLobbyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13A1B161F48DE9400A49C12 /* CoachingLobbyVC.swift */; };
+		C13A1B191F48DE9400A49C12 /* CoachingLobbyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C13A1B171F48DE9400A49C12 /* CoachingLobbyVC.xib */; };
 		C193D7E91EE10EED008677E3 /* CoachHubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C193D7E71EE10EED008677E3 /* CoachHubVC.swift */; };
 		C193D7EA1EE10EED008677E3 /* CoachHubVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C193D7E81EE10EED008677E3 /* CoachHubVC.xib */; };
 		E913EB7A1E63F4C000F6EC1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E913EB791E63F4C000F6EC1C /* AppDelegate.swift */; };
@@ -35,6 +37,8 @@
 		C1302EB41E6E9A730052BD26 /* TheHubVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TheHubVC.xib; sourceTree = "<group>"; };
 		C1302EB71E6E9A800052BD26 /* AchievementTrackerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementTrackerVC.swift; sourceTree = "<group>"; };
 		C1302EB81E6E9A800052BD26 /* AchievementTrackerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AchievementTrackerVC.xib; sourceTree = "<group>"; };
+		C13A1B161F48DE9400A49C12 /* CoachingLobbyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachingLobbyVC.swift; sourceTree = "<group>"; };
+		C13A1B171F48DE9400A49C12 /* CoachingLobbyVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoachingLobbyVC.xib; sourceTree = "<group>"; };
 		C193D7E71EE10EED008677E3 /* CoachHubVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachHubVC.swift; sourceTree = "<group>"; };
 		C193D7E81EE10EED008677E3 /* CoachHubVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoachHubVC.xib; sourceTree = "<group>"; };
 		DB7D215A6EFDE64328F56F71 /* Pods-College App 101.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College App 101.release.xcconfig"; path = "Pods/Target Support Files/Pods-College App 101/Pods-College App 101.release.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 			children = (
 				C1302EAF1E6E9A640052BD26 /* CoachingVC.swift */,
 				C1302EB01E6E9A640052BD26 /* CoachingVC.xib */,
+				C13A1B161F48DE9400A49C12 /* CoachingLobbyVC.swift */,
+				C13A1B171F48DE9400A49C12 /* CoachingLobbyVC.xib */,
 			);
 			name = Coaching;
 			sourceTree = "<group>";
@@ -249,6 +255,7 @@
 				C193D7EA1EE10EED008677E3 /* CoachHubVC.xib in Resources */,
 				C1302EBA1E6E9A800052BD26 /* AchievementTrackerVC.xib in Resources */,
 				E913EB7F1E63F4C000F6EC1C /* Main.storyboard in Resources */,
+				C13A1B191F48DE9400A49C12 /* CoachingLobbyVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +319,7 @@
 				C193D7E91EE10EED008677E3 /* CoachHubVC.swift in Sources */,
 				C1302EB51E6E9A730052BD26 /* TheHubVC.swift in Sources */,
 				E913EB8E1E63F97A00F6EC1C /* LoginController.swift in Sources */,
+				C13A1B181F48DE9400A49C12 /* CoachingLobbyVC.swift in Sources */,
 				E913EB7A1E63F4C000F6EC1C /* AppDelegate.swift in Sources */,
 				C1302EB91E6E9A800052BD26 /* AchievementTrackerVC.swift in Sources */,
 			);

@@ -24,6 +24,12 @@ class CoachingVC: UIViewController {
 
     @IBOutlet weak var pickSchoolsBtn: UIButton!
     
+    @IBOutlet weak var randomBtn: UIButton!
+    
+    let coachingLobby: CoachingLobbyVC = CoachingLobbyVC()
+    
+    let mainMenuVC: ViewController = ViewController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -71,6 +77,13 @@ class CoachingVC: UIViewController {
         UIView.animate(withDuration: 0.5, animations: {self.selectedOutline.center.x = self.pickSchoolsBtn.center.x}, completion: nil)
 
     }
+    
+    @IBAction func randomBtnPressed(_ sender: Any) {
+        mainMenuVC.segueCoachingLobby()
+        
+        
+    }
+    
     
     
     /*

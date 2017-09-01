@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -48,10 +48,6 @@
                     <rect key="frame" x="146" y="139" width="139" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hub_notification" translatesAutoresizingMaskIntoConstraints="NO" id="P69-pk-KjI">
-                    <rect key="frame" x="16" y="290" width="343" height="134"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hub_title" translatesAutoresizingMaskIntoConstraints="NO" id="Km6-Ep-jNa">
                     <rect key="frame" x="153" y="5" width="69" height="50"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -75,7 +71,6 @@
         <image name="ColePic" width="119" height="117"/>
         <image name="Cole_name" width="138" height="44"/>
         <image name="College_BG" width="375" height="209"/>
-        <image name="Hub_notification" width="150" height="100"/>
         <image name="Hub_tabs_bg" width="375" height="408"/>
         <image name="Hub_title" width="69" height="50"/>
         <image name="Menu_Icon" width="26" height="25"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -17,6 +17,7 @@
                 <outlet property="generalBtn" destination="bct-f3-wrl" id="0F0-z8-bdG"/>
                 <outlet property="oooBtn" destination="xNM-DS-DEN" id="iI9-wB-cBn"/>
                 <outlet property="pickSchoolsBtn" destination="j30-PG-i22" id="5xT-1i-0XJ"/>
+                <outlet property="randomBtn" destination="XoW-gn-GVc" id="XlQ-aj-37h"/>
                 <outlet property="selectedOutline" destination="MYG-3x-iLu" id="uaM-4g-So9"/>
                 <outlet property="view" destination="ApB-eX-bUE" id="gzt-Vl-DYE"/>
             </connections>
@@ -168,6 +169,14 @@
                     <state key="normal" backgroundImage="Essay_Icon"/>
                     <connections>
                         <action selector="essayReviewPressed:" destination="-1" eventType="touchUpInside" id="RnB-qe-Kjs"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XoW-gn-GVc">
+                    <rect key="frame" x="177" y="381" width="84" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Random btn"/>
+                    <connections>
+                        <action selector="randomBtnPressed:" destination="-1" eventType="touchUpInside" id="m6d-p4-WoP"/>
                     </connections>
                 </button>
             </subviews>
