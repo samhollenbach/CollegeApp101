@@ -63,14 +63,14 @@
                                     <color key="titleColor" red="0.1270656086387435" green="0.12561643196900074" blue="0.12126890195977243" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="           Password" placeholder="Password" textAlignment="natural" minimumFontSize="17" background="username_bg" translatesAutoresizingMaskIntoConstraints="NO" id="LoN-tH-g5s">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="password" placeholder="Password" textAlignment="natural" minimumFontSize="17" background="username_bg" translatesAutoresizingMaskIntoConstraints="NO" id="LoN-tH-g5s">
                                 <frame key="frameInset" minX="37" minY="318" width="300" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.66868455497382207" green="0.66124183266111913" blue="0.63428522820261668" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="           Username" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" background="username_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Cis-DS-UzA">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="b@b.com" placeholder="Username" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" background="username_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Cis-DS-UzA">
                                 <frame key="frameInset" minX="37" minY="282" width="300" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.66868455497382207" green="0.66124183266111913" blue="0.63428522820261668" alpha="1" colorSpace="calibratedRGB"/>
