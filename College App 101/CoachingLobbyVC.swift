@@ -11,8 +11,10 @@ import UIKit
 class CoachingLobbyVC: UIViewController {
     
     @IBOutlet var coachingLobbyView: UIView!
-
     
+    var coachingLandingPage : UIViewController? = nil
+
+    var mainMenuVC : ViewController? = nil
     
     
     override func viewDidLoad() {
@@ -26,6 +28,11 @@ class CoachingLobbyVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func goBackButton(_ sender: AnyObject) {
+        mainMenuVC?.slideOutVC(vc: coachingLandingPage!, onPanel: 1){_ in 
+    
+        }
+    }
 
     /*
     // MARK: - Navigation
