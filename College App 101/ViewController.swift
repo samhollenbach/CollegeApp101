@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let vc0 = CoachingVC(nibName: "CoachingVC", bundle: nil)
-        
+        vc0.mainMenuVC = self
         let vc1 = TheHubVC(nibName: "TheHubVC", bundle: nil)
         
         //Called in reverse order so coaching is on the right
