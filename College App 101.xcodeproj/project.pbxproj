@@ -15,9 +15,9 @@
 		C1302EB91E6E9A800052BD26 /* AchievementTrackerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1302EB71E6E9A800052BD26 /* AchievementTrackerVC.swift */; };
 		C1302EBA1E6E9A800052BD26 /* AchievementTrackerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1302EB81E6E9A800052BD26 /* AchievementTrackerVC.xib */; };
 		C13A1B181F48DE9400A49C12 /* CoachingLobbyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13A1B161F48DE9400A49C12 /* CoachingLobbyVC.swift */; };
-		C13A1B191F48DE9400A49C12 /* CoachingLobbyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C13A1B171F48DE9400A49C12 /* CoachingLobbyVC.xib */; };
 		C193D7E91EE10EED008677E3 /* CoachHubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C193D7E71EE10EED008677E3 /* CoachHubVC.swift */; };
 		C193D7EA1EE10EED008677E3 /* CoachHubVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C193D7E81EE10EED008677E3 /* CoachHubVC.xib */; };
+		E905AF761F5A8CCF00C9F8CE /* CoachingLobby.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E905AF751F5A8CCF00C9F8CE /* CoachingLobby.storyboard */; };
 		E913EB7A1E63F4C000F6EC1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E913EB791E63F4C000F6EC1C /* AppDelegate.swift */; };
 		E913EB7C1E63F4C000F6EC1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E913EB7B1E63F4C000F6EC1C /* ViewController.swift */; };
 		E913EB7F1E63F4C000F6EC1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E913EB7D1E63F4C000F6EC1C /* Main.storyboard */; };
@@ -38,10 +38,10 @@
 		C1302EB71E6E9A800052BD26 /* AchievementTrackerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementTrackerVC.swift; sourceTree = "<group>"; };
 		C1302EB81E6E9A800052BD26 /* AchievementTrackerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AchievementTrackerVC.xib; sourceTree = "<group>"; };
 		C13A1B161F48DE9400A49C12 /* CoachingLobbyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachingLobbyVC.swift; sourceTree = "<group>"; };
-		C13A1B171F48DE9400A49C12 /* CoachingLobbyVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoachingLobbyVC.xib; sourceTree = "<group>"; };
 		C193D7E71EE10EED008677E3 /* CoachHubVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachHubVC.swift; sourceTree = "<group>"; };
 		C193D7E81EE10EED008677E3 /* CoachHubVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoachHubVC.xib; sourceTree = "<group>"; };
 		DB7D215A6EFDE64328F56F71 /* Pods-College App 101.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College App 101.release.xcconfig"; path = "Pods/Target Support Files/Pods-College App 101/Pods-College App 101.release.xcconfig"; sourceTree = "<group>"; };
+		E905AF751F5A8CCF00C9F8CE /* CoachingLobby.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CoachingLobby.storyboard; sourceTree = "<group>"; };
 		E913EB761E63F4C000F6EC1C /* College App 101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College App 101.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E913EB791E63F4C000F6EC1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E913EB7B1E63F4C000F6EC1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 				C1302EAF1E6E9A640052BD26 /* CoachingVC.swift */,
 				C1302EB01E6E9A640052BD26 /* CoachingVC.xib */,
 				C13A1B161F48DE9400A49C12 /* CoachingLobbyVC.swift */,
-				C13A1B171F48DE9400A49C12 /* CoachingLobbyVC.xib */,
+				E905AF751F5A8CCF00C9F8CE /* CoachingLobby.storyboard */,
 			);
 			name = Coaching;
 			sourceTree = "<group>";
@@ -249,13 +249,13 @@
 				C1302EB21E6E9A640052BD26 /* CoachingVC.xib in Resources */,
 				E913EB8C1E63F96900F6EC1C /* Login.storyboard in Resources */,
 				E990A3FA1F11B6F600DB6D56 /* GoogleService-Info.plist in Resources */,
+				E905AF761F5A8CCF00C9F8CE /* CoachingLobby.storyboard in Resources */,
 				E913EB841E63F4C000F6EC1C /* LaunchScreen.storyboard in Resources */,
 				E913EB811E63F4C000F6EC1C /* Assets.xcassets in Resources */,
 				C1302EB61E6E9A730052BD26 /* TheHubVC.xib in Resources */,
 				C193D7EA1EE10EED008677E3 /* CoachHubVC.xib in Resources */,
 				C1302EBA1E6E9A800052BD26 /* AchievementTrackerVC.xib in Resources */,
 				E913EB7F1E63F4C000F6EC1C /* Main.storyboard in Resources */,
-				C13A1B191F48DE9400A49C12 /* CoachingLobbyVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

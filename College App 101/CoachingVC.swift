@@ -26,9 +26,10 @@ class CoachingVC: UIViewController {
     
     @IBOutlet weak var randomBtn: UIButton!
     
-    let coachingLobby: CoachingLobbyVC = CoachingLobbyVC()
+    //let coachingLobby: CoachingLobbyVC = CoachingLobbyVC()
     
-    let mainMenuVC: ViewController = ViewController()
+    //let mainMenuVC: ViewController = ViewController()
+    var mainMenuVC : ViewController? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -79,8 +80,10 @@ class CoachingVC: UIViewController {
     }
     
     @IBAction func randomBtnPressed(_ sender: Any) {
-        mainMenuVC.segueCoachingLobby()
-        
+        mainMenuVC?.segueCoachingLobby()
+        //let storyboard = UIStoryboard(name: "CoachingLobby", bundle: nil)
+        //let vc = storyboard.instantiateViewController(withIdentifier: "CoachingLobby") as! CoachingLobbyVC
+        //present(vc, animated: true, completion: nil)
         
     }
     
