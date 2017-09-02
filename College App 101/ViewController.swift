@@ -21,25 +21,25 @@ class ViewController: UIViewController {
         self.addChildViewController(vc0)
         self.mainScroll.addSubview(vc0.view)
         vc0.didMove(toParentViewController: self)
+        var frame0 = vc0.view.frame
+        frame0.origin.x = self.view.frame.size.width
+        vc0.view.frame = frame0
         
         let vc1 = TheHubVC(nibName: "TheHubVC", bundle: nil)
-        var frame1 = vc1.view.frame
-        frame1.origin.x = self.view.frame.size.width
-        vc1.view.frame = frame1
         self.addChildViewController(vc1)
         self.mainScroll.addSubview(vc1.view)
         vc1.didMove(toParentViewController: self)
         
-        let vc2 = AchievementTrackerVC(nibName: "AchievementTrackerVC", bundle: nil)
-        var frame2 = vc2.view.frame
-        frame2.origin.x = self.view.frame.size.width * 2
-        vc2.view.frame = frame2
-        self.addChildViewController(vc2)
-        self.mainScroll.addSubview(vc2.view)
-        vc2.didMove(toParentViewController: self)
+//        let vc2 = AchievementTrackerVC(nibName: "AchievementTrackerVC", bundle: nil)
+//        var frame2 = vc2.view.frame
+//        frame2.origin.x = self.view.frame.size.width * 2
+//        vc2.view.frame = frame2
+//        //self.addChildViewController(vc2)
+//        //self.mainScroll.addSubview(vc2.view)
+//        vc2.didMove(toParentViewController: self)
         
-        self.mainScroll.contentSize = CGSize(width: self.view.frame.size.width * 3, height: self.view.frame.size.height)
-        self.mainScroll.contentOffset.x = self.view.frame.size.width
+        self.mainScroll.contentSize = CGSize(width: self.view.frame.size.width * 2, height: self.view.frame.size.height)
+        //self.mainScroll.contentOffset.x = self.view.frame.size.width
     }
     
     //THIS METHOD WORKS, figure out where/how to call it appropriately.
